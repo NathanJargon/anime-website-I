@@ -20,7 +20,7 @@ Anime Portfolio is a web application showcasing my personal portfolio with an in
 
 ## Screenshots
 ![Screenshot 1](fimg.png)
-*Caption for Screenshot 1.*
+*Mini Tablet Screenshot.*
 
 ## Installation
 1. Clone the repository:
