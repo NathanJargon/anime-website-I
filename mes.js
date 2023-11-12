@@ -26,4 +26,4 @@ setTimeout(() => {
     document.getElementById('container').style.opacity = 1;
     document.getElementById('container').classList.add('fade-in');
     playMessages(0);
-}, 1500);
+}, 1800);

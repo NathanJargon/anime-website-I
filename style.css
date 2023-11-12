@@ -47,12 +47,22 @@ body {
     height: 100%;
 }
 
+.project-item p {
+    color: black;
+    text-decoration: none;
+}
+
+.project-item p:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
 .trans0{
     opacity: 0.5;
 }
 
 .text-content {
-    opacity: 0;
+    display: none;
     position: absolute;
     font-family: 'Montserrat', sans-serif;
     top: 50%;
@@ -173,7 +183,6 @@ body {
     left: 50%;
     transform: translateX(-50%);
     font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
     font-size: 24px;
     white-space: nowrap;
     overflow: hidden;
@@ -184,5 +193,9 @@ body {
 @media (max-width: 768px) {
     .vh-100 {
         padding: 100px;
+    }
+
+    #typing-text{
+        font-size: 18px;
     }
 }
