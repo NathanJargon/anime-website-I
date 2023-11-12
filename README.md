@@ -19,7 +19,7 @@ Anime Portfolio is a web application showcasing my personal portfolio with an in
 - Responsive design for both desktop and mobile.
 
 ## Screenshots
-![Screenshot 1](/path/to/fimg.png)
+![Screenshot 1](fimg.png)
 *Caption for Screenshot 1.*
 
 ## Installation
