@@ -18,9 +18,8 @@ Anime Portfolio is a web application showcasing my personal portfolio with an in
 - Typing effect for a dynamic introduction.
 - Responsive design for both desktop and mobile.
 
-## Screenshots
-![Screenshot 1](fimg.png)
-*Mini Tablet Screenshot.*
+## GIF
+![GIF 1](mgif.gif)
 
 ## Installation
 1. Clone the repository:
