@@ -26,9 +26,9 @@
                 <div style="position: relative;">
                     <img src="f.png" class="img-fluid rounded floating-image image1" alt="" id="image1">
                     <div class="overlay-content">
-                        <img src="ab.png" class="img-fluid rounded floating-image image1-overlay" alt="" onclick="toggleImage('image1', 'c.png', 'h.png')">
+                        <img src="ab.png" class="img-fluid rounded floating-image image1-overlay" alt="" onclick="toggleImage('image1', 'c.png', 'h.png')" loading="lazy" style="max-width: 100%; height: auto;">
                         <div class="text-content" id="text-content1">
-                            <h2 style="text-decoration: underline;">Introduction</h2>
+                            <h2 style="text-decoration: underline;">Greetings!</h2>
                             <h4 class="fw-bold"><span style="font-weight: bolder; text-decoration: underline; font-size: 42px;">I</span> am Nash Andrew Yagahon Bondoc</h4>
                             <p class="fw-bold">An 18 years old competitive programmer!</p>
                             <div class="d-inline-block p-2 me-3">
@@ -46,92 +46,111 @@
                 </div>
             </div>
 
-            <!-- Second -->
-            <div class="col-md-3">
-                <div style="position: relative;">
-                    <img src="g.png" class="img-fluid rounded floating-image image2" alt="" id="image2">
-                        <div class="overlay-content">
-                        <img src="ab.png" class="img-fluid rounded floating-image image1-overlay" alt="" onclick="toggleImage('image2', 'c.png', 'g.png')">
-                        <div class="text-content" id="text-content2">
-                            <h2 style="text-decoration: underline;">Projects</h2>
-                        
+<!-- Second -->
+<div class="col-md-3">
+    <div style="position: relative;">
+        <img src="g.png" class="img-fluid rounded floating-image image2" alt="" id="image2">
+        <div class="overlay-content">
+            <img src="ab.png" class="img-fluid rounded floating-image image1-overlay" alt="" onclick="toggleImage('image2', 'c.png', 'g.png')" loading="lazy" style="max-width: 100%; height: auto;">
+            <div class="text-content" id="text-content2">
+                <h2 style="text-decoration: underline;">Projects</h2>
+
+                <!-- Projects Container -->
+                <div class="projects-container">
+
+                    <!-- Row 1 -->
+                    <div class="project-row">
+
+                        <!-- Project 1 -->
+                        <div class="project-item d-inline-block p-2 me-3">
+                            <a href="https://github.com/NathanJargon/tesseract-text-extractor" target="_blank" class="text-decoration-none">
+                                <i class="fa-brands fa-phoenix-framework fa-2xl" style="color: #f5ce0a;"></i>
+                                <p class="caption fw-bold">Pytesseract</p>
+                            </a>
+                        </div>
+
+                        <!-- Project 2 -->
+                        <div class="project-item d-inline-block p-2 me-3">
+                            <a href="https://github.com/NathanJargon/my-personal-website" target="_blank" class="text-decoration-none">
+                                <i class="fa-brands fa-phoenix-framework fa-2xl" style="color: #0a93f5;"></i>
+                                <p class="caption fw-bold">Bootstrap Website</p>
+                            </a>
+                        </div>
+
+                    </div> <!-- End Row 1 -->
+
+                    <!-- Row 2 -->
+                    <div class="project-row">
+
+                        <!-- Project 3 -->
+                        <div class="project-item d-inline-block p-2 me-3">
+                            <a href="https://github.com/NathanJargon/Expenses-Tracker" target="_blank" class="text-decoration-none">
+                                <i class="fa-brands fa-phoenix-framework fa-2xl" style="color: #12f50a;"></i>
+                                <p class="caption fw-bold">Expense Tracker</p>
+                            </a>
+                        </div>
+
+                        <!-- Project 4 -->
+                        <div class="project-item d-inline-block p-2 me-3">
+                            <a href="https://github.com/NathanJargon/Business-Website" target="_blank" class="text-decoration-none">
+                                <i class="fa-brands fa-phoenix-framework fa-2xl" style="color: #f50a22;"></i>
+                                <p class="caption fw-bold">Business Website</p>
+                            </a>
+                        </div>
+
+                    </div> <!-- End Row 2 -->
+
+                </div> <!-- End Projects Container -->
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+            
+
+        <!-- Third -->
+        <div class="col-md-3">
+            <div style="position: relative;">
+                <img src="h.png" class="img-fluid rounded floating-image image3" alt="" id="image3">
+                    <div class="overlay-content">
+                        <img src="ab.png" class="img-fluid rounded floating-image image1-overlay" alt="" onclick="toggleImage('image3', 'c.png', 'f.png')" loading="lazy" style="max-width: 100%; height: auto;">
+                        <div class="text-content" id="text-content3">
+                            <h2 style="text-decoration: underline;">Jobs</h2>
+                    
                             <!-- Project 1 -->
                             <div class="project-item d-inline-block p-2 me-3">
-                                <a href="https://github.com/NathanJargon/tesseract-text-extractor" target="_blank" class="text-decoration-none">
-                                    <i class="fa-brands fa-phoenix-framework fa-2xl" style="color: #f5ce0a;"></i>
+                                <a href="https://www.linkedin.com/in/nashbondoc/" target="_blank" class="text-decoration-none">
+                                    <img src="unify.png" class="img-fluid rounded" alt="">
                                 
-                                <p class="caption fw-bold">Pytesseract</p></a>
+                                <p class="caption fw-bold">ML Engineer</p></a>
                             </div>
                         
                             <!-- Project 2 -->
                             <div class="project-item d-inline-block p-2 me-3">
-                                <a href="https://github.com/NathanJargon/my-personal-website" target="_blank" class="text-decoration-none">
-                                    <i class="fa-brands fa-phoenix-framework fa-2xl" style="color: #0a93f5;"></i>
+                                <a href="https://www.linkedin.com/in/nashbondoc/" target="_blank" class="text-decoration-none">
+                                    <img src="radicalx.jpg" class="img-fluid rounded" alt="">
                                 
-                                <p class="caption fw-bold">Bootstrap Website</p></a>
+                                <p class="caption fw-bold">ML/AI Engineer</p></a>
                             </div>
                         
                             <!-- Project 3 -->
                             <div class="project-item d-inline-block p-2 me-3">
-                                <a href="https://github.com/NathanJargon/Expenses-Tracker" target="_blank" class="text-decoration-none">
-                                    <i class="fa-brands fa-phoenix-framework fa-2xl" style="color: #12f50a;"></i>
-                                <p class="caption fw-bold">Expense Tracker</p></a>
-                            </div>
-
-                            <div class="project-item d-inline-block p-2 me-3">
-                                <a href="https://github.com/NathanJargon/Business-Website" target="_blank" class="text-decoration-none">
-                                    <i class="fa-brands fa-phoenix-framework fa-2xl" style="color: #f50a22;"></i>
+                                <a href="https://www.linkedin.com/in/nashbondoc/" target="_blank" class="text-decoration-none">
+                                    <img src="toloka.jpg" class="img-fluid rounded" alt="">
                                 
-                                <p class="caption fw-bold">Business Website</p></a>
-                            </div>
-                        </div>
-                        
-                    </div>
-                </div>
-            </div>
-            
-
-            <!-- Third -->
-            <div class="col-md-3">
-                <div style="position: relative;">
-                    <img src="h.png" class="img-fluid rounded floating-image image3" alt="" id="image3">
-                        <div class="overlay-content">
-                            <img src="ab.png" class="img-fluid rounded floating-image image1-overlay" alt="" onclick="toggleImage('image3', 'c.png', 'f.png')">
-                            <div class="text-content" id="text-content3">
-                                <h2 style="text-decoration: underline;">Jobs</h2>
-                        
-                                <!-- Project 1 -->
-                                <div class="project-item d-inline-block p-2 me-3">
-                                    <a href="https://www.linkedin.com/in/nashbondoc/" target="_blank" class="text-decoration-none">
-                                        <img src="unify.png" class="img-fluid rounded" alt="">
-                                    
-                                    <p class="caption fw-bold">ML Engineer</p></a>
-                                </div>
-                            
-                                <!-- Project 2 -->
-                                <div class="project-item d-inline-block p-2 me-3">
-                                    <a href="https://www.linkedin.com/in/nashbondoc/" target="_blank" class="text-decoration-none">
-                                        <img src="radicalx.jpg" class="img-fluid rounded" alt="">
-                                    
-                                    <p class="caption fw-bold">ML/AI Engineer</p></a>
-                                </div>
-                            
-                                <!-- Project 3 -->
-                                <div class="project-item d-inline-block p-2 me-3">
-                                    <a href="https://www.linkedin.com/in/nashbondoc/" target="_blank" class="text-decoration-none">
-                                        <img src="toloka.jpg" class="img-fluid rounded" alt="">
-                                    
-                                    <p class="caption fw-bold">AI Tutor</p></a>
-                                </div>
+                                <p class="caption fw-bold">AI Tutor</p></a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        
-        <div id="typing-text" class="fw-bold"></div>
     </div>
+    
+    <div id="typing-text" class="fw-bold"></div>
+</div>
     
     
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrP4M4lU1e2nHIEJm+8hUJ5cT9c5FbUrl6S" crossorigin="anonymous"></script>
@@ -139,5 +158,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JHmGdodY7uZcNl/tXScN5dZKAcf8U8S12X6oNw5dFZG5pWl7a63l5+X1mnFZjIt0" crossorigin="anonymous"></script>
     <script src="mes.js"></script>
     <script src="tp.js"></script>
+    <script src="resp.js"></script>
 </body>
 </html>

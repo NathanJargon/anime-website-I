@@ -71,6 +71,7 @@ body {
     text-align: center;
     color: black; /* Set text color */
     text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
+    font-size: 13px;
 }
 
 .text-content a {
@@ -190,6 +191,7 @@ body {
 }
 
 
+/* RESPONSIVENESS */
 @media (max-width: 768px) {
     .vh-100 {
         padding: 100px;
@@ -198,4 +200,74 @@ body {
     #typing-text{
         font-size: 18px;
     }
+}
+
+/* Media query for small screens (up to 576px) */
+@media (max-width: 576px) {
+    /* Adjust styles for small screens */
+    .container {
+        padding: 10px; /* Example adjustment */
+    }
+
+    /* Add more adjustments as needed */
+}
+
+/* Media query for screens around 320px */
+@media (min-width: 320px) and (max-width: 576px) {
+    /* Adjust styles for screens around 320px */
+    #intro-name {
+        font-size: 36px;
+    }
+
+    .container {
+        padding: 15px; /* Example adjustment for 320px screens */
+    }
+
+    #typing-text{
+        font-size: 10px;
+        top: 95vh;
+    }
+
+    .row{
+        padding: 1250px 0px 0px 0px;
+    }
+
+    .row>* {
+        padding: 25px;
+    }
+
+    /* Add more adjustments as needed */
+}
+
+/* Media query for medium screens (577px to 768px) */
+@media (min-width: 577px) and (max-width: 768px) {
+    /* Adjust styles for medium screens */
+    .container {
+        padding: 20px; /* Example adjustment */
+    }
+
+    /* Add more adjustments as needed */
+}
+
+/* Media query for large screens (769px to 992px) */
+@media (min-width: 769px) and (max-width: 992px) {
+    /* Adjust styles for large screens */
+    .container {
+        padding: 30px; /* Example adjustment */
+    }
+
+    .row>* {
+        padding: 25px;
+    }
+    /* Add more adjustments as needed */
+}
+
+/* Media query for extra-large screens (993px and above) */
+@media (min-width: 993px) {
+    /* Adjust styles for extra-large screens */
+    .container {
+        padding: 40px; /* Example adjustment */
+    }
+
+    /* Add more adjustments as needed */
 }

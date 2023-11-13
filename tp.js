@@ -8,7 +8,7 @@ function toggleImage(imageId, secondImage, firstImage) {
     const contents1 = document.getElementById('text-content1');
     const contents2 = document.getElementById('text-content2');
     const contents3 = document.getElementById('text-content3');
-    mainImage.classList.add('fade-in');
+    // mainImage.classList.add('fade-in');
     
     // Toggle between two images based on the state variable
     if (imageId === 'image1') {
