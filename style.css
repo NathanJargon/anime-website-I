@@ -213,7 +213,34 @@ body {
 }
 
 /* Media query for screens around 320px */
-@media (min-width: 320px) and (max-width: 576px) {
+@media (min-width: 320px) and (max-width: 320px) {
+    /* Adjust styles for screens around 320px */
+    #intro-name {
+        font-size: 36px;
+    }
+
+    .container {
+        padding: 15px; /* Example adjustment for 320px screens */
+    }
+
+    #typing-text{
+        font-size: 10px;
+        top: 95vh;
+    }
+
+    .row{
+        padding: 1000px 0px 0px 0px;
+    }
+
+    .row>* {
+        padding: 25px;
+    }
+
+    /* Add more adjustments as needed */
+}
+
+/* Media query for screens around 320px */
+@media (min-width: 321px) and (max-width: 376px) {
     /* Adjust styles for screens around 320px */
     #intro-name {
         font-size: 36px;
@@ -239,11 +266,47 @@ body {
     /* Add more adjustments as needed */
 }
 
+/* Media query for screens around 320px */
+@media (min-width: 377px) and (max-width: 576px) {
+    /* Adjust styles for screens around 320px */
+    #intro-name {
+        font-size: 36px;
+    }
+
+    .container {
+        padding: 15px; /* Example adjustment for 320px screens */
+    }
+
+    #typing-text{
+        font-size: 10px;
+        top: 95vh;
+    }
+
+    .row{
+        padding: 1700px 0px 0px 0px;
+    }
+
+    .row>* {
+        padding: 25px;
+    }
+
+    /* Add more adjustments as needed */
+}
+
+
 /* Media query for medium screens (577px to 768px) */
 @media (min-width: 577px) and (max-width: 768px) {
     /* Adjust styles for medium screens */
     .container {
         padding: 20px; /* Example adjustment */
+    }
+
+    .row{
+        padding: 50px 0px 0px 25px;
+    }
+
+    .row>* {
+        padding: 25px;
     }
 
     /* Add more adjustments as needed */
